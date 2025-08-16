@@ -143,7 +143,7 @@ export default function HomePage() {
           <input
             value={to}
             onChange={(e) => setTo(e.target.value)}
-            placeholder="[email protected], [email protected]"
+            placeholder="Enter Receipients email address"
             style={styles.input}
           />
         </div>
